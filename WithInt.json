@@ -7,7 +7,8 @@
   "targetOsType": "Windows",
   "parameters": {
         "someNumber": {
-            "type": "int",
+          "type": "int",
+          "displayName": "An Integer",
             "description": "Make sure this is an integer"
         }
     },
