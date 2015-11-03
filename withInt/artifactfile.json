@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "title": "With Int",
+  "description": "Not Empty artifact parameter",
+  "type": "Microsoft.DevTestLab.Artifact.Powershell.CustomScript",
+  "iconUri": "",
+  "targetOsType": "Windows",
+  "parameters": {
+        "someNumber": {
+          "type": "int",
+          "displayName": "An Integer",
+            "description": "Make sure this is an integer"
+        }
+    },
+  "runCommand": {
+    "commandToExecute": "powershell.exe"
+  }
+}
