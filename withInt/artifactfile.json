@@ -13,7 +13,7 @@
     },
     "someString": {
       "type": "int",
-      "allowEmpty": "true",
+      "allowEmpty": true,
       "displayName": "Not req",
       "description": "This is valid"
     }
