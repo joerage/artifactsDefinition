@@ -12,10 +12,11 @@
       "description": "Make sure this is an integer"
     },
     "someString": {
-          "type": "string",
-          "displayName": "String baby",
-            "description": "This is valid"
-        }
+      "type": "int",
+      "allowEmpty": "true",
+      "displayName": "Not req",
+      "description": "This is valid"
+    }
   },
   "runCommand": {
     "commandToExecute": "powershell.exe"
